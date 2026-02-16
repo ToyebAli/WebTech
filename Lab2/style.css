@@ -1,0 +1,212 @@
+
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 10px;
+  line-height: 1.5;
+}
+
+.header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header h2 {
+  margin: 10px 0 0 0;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.heading {
+  background-color: #0066cc;
+  color: white;
+  padding: 15px 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.heading h3 {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+p {
+  margin: 5px 15px;
+  color: #333;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #003366;
+}
+
+/* Table Styles */
+table {
+  width: 90%;
+  margin: 15px auto;
+  background-color: white;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table th {
+  background-color: #003366;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Education Table */
+.edu-table {
+  width: 90%;
+  margin: 15px auto;
+}
+
+/* Contact Form Table */
+.contact-table {
+  width: 500px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+.contact-table td {
+  padding: 10px;
+  border: 1px solid #999;
+}
+
+.contact-table td:first-child {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  width: 150px;
+}
+
+/* Input and Textarea Styles */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #0066cc;
+  background-color: #fffff0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Skills Container */
+.skills-container {
+  display: inline-block;
+  width: 90%;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.skill-section {
+  display: inline-block;
+  width: 45%;
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.skill-section h4 {
+  color: #003366;
+  margin-top: 0;
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 10px;
+}
+
+.skill-section ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.skill-section li {
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #e8f0f7;
+  border-left: 3px solid #0066cc;
+  padding-left: 15px;
+}
+
+
+ol {
+  margin: 15px 50px;
+  padding: 0;
+}
+
+ol li {
+  margin: 8px 0;
+  color: #333;
+}
+
+ul {
+  margin: 10px 20px;
+}
+
+ul li {
+  margin: 6px 0;
+}
+
+
+.btn-submit {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  margin-left: 700px;
+  margin-top: 10px;
+}
+
+.btn-submit:hover {
+  background-color: #003366;
+}
+
+.btn-submit:active {
+  background-color: #001d3d;
+}
