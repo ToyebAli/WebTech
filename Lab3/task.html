@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="script.js"></script>
+</head>
+<body>
+     <table>
+        <tr>
+          <td>Email</td>
+          <td>
+            <input
+              type="text"
+              placeholder="Enter your email"
+              id="email"
+              name=""
+            />
+          </td>
+          <td>
+            <p id="emailErr"></p>
+          </td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>
+            <input
+              type="text"
+              placeholder="Enter your password"
+              id="password"
+              name=""
+            />
+          </td>
+          <td>
+            <p id="passwordErr"></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="submit" onclick="return collectFormData();">Submit</button>
+          </td>
+        </tr>
+      </table>
+      <div id="count" style="margin-top:10px"></div>
+</body>
+</html>
