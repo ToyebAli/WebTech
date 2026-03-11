@@ -1,4 +1,3 @@
-
 var wrongCount = 0;
 
 function getEmail() {
