@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Analysis Tool</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Text Analysis Tool</h1>
+    <p>
+      Paste any paragraph below and click "Analyze Text" to see word count,
+      character count, and reversed text.
+    </p>
+
+    <textarea id="textInput" placeholder="Enter your text here..."></textarea>
+
+    <button onclick="analyzeText()">Analyze Text</button>
+
+    <div id="results">
+      <div class="result-item">
+        <strong>Total Characters:</strong> <span id="charCount">0</span>
+      </div>
+      <div class="result-item">
+        <strong>Total Words:</strong> <span id="wordCount">0</span>
+      </div>
+      <div class="result-item">
+        <strong>Reversed Text:</strong>
+        <p id="reversedText"></p>
+      </div>
+    </div>
+
+  </body>
+</html>
